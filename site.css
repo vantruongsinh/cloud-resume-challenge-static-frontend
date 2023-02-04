@@ -1,19 +1,21 @@
 * {
     max-width: 700px;
     margin: auto;
+    
   }
   
   
-  /*body {
+  body {
       min-width: 500px;
-  }*/
+      
+  }
   
   div {
     border-radius: 5px;
   }
   
   #header {
-    height: 40px;
+    height: 50px;
     width: 100%;
     background-color: #ffcccc;
     position: fixed;
@@ -33,7 +35,7 @@
   }
   
   .left {
-    height: 1000px;
+    height: 800px;
     width: 45px;
     background-color: #e0eeee;
     float: left;
@@ -41,7 +43,7 @@
   }
   
   .right {
-    height: 1000px;
+    height: 800px;
     width: 45px;
     background-color: #e0eeee;
     float: right;
@@ -50,10 +52,10 @@
   
   .stuff {
     display: inline-block;
-    margin-top: 6px;
+    margin-top: 20px;
     margin-left: 55px;
     width: 75%;
-    height: 1000px;
+    height: 700px;
   }
   
   p,
