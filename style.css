@@ -79,16 +79,16 @@ li {
 .column-left {
     float: left;
     width: 30%;
-    padding: 1px;
+    padding: 5px;
     background-color: rgb(229, 229, 229);
 }
 
 .column-left img {
   width: auto;
-  height: 75px;
+  height: 60px;
   display: block;
   margin: 0 auto;
-  padding: 2px;
+  padding: 5px;
 }
 .column-right {
     float: right;
