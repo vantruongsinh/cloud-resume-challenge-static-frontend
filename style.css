@@ -1,13 +1,19 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
-  width: 1000px;
+  width: 100%;
   margin: 0 auto;
 }
 
+@media only screen and (min-width: 1000px) {
+    body {
+      width: 1000px;
+    }
+  }
+
 header {
   text-align: center;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
   background-color: #333;
   color: #fff;
 }
@@ -64,4 +70,47 @@ h3 {
 img {
   width: auto;
   height: 150px;
+}
+
+li {
+ margin: 10px;
+}
+
+.column-left {
+    float: left;
+    width: 30%;
+    padding: 1px;
+    background-color: rgb(229, 229, 229);
+}
+
+.column-left img {
+  width: auto;
+  height: 75px;
+  display: block;
+  margin: 0 auto;
+  padding: 2px;
+}
+.column-right {
+    float: right;
+    width: 65%;
+    padding: 1px;
+    text-align: justify;
+    background-color: rgb(229, 229, 229);
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+.annotation {
+  display: none;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
 }

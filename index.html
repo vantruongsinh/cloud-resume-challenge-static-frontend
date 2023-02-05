@@ -4,26 +4,49 @@
     <meta charset="utf-8">
     <title>Resume</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <script src="./visitor.js"> </script>
+    <script src="./animation.js"> </script>
   </head>
   <body>
     <header>
       <h1>Sinh Van</h1>
       <p>Network Engineer</p>
       <p>Email: vantruongsinh@gmail.com</p>
+	<div class="social-icons">
+	<a class="social-icon" href="https://www.linkedin.com/in/sinhvan/"><i class="fab fa-linkedin-in" style="color: white; font-size: 20px;"></i></a>  
+	<a class="social-icon" href="https://github.com/vantruongsinh"><i class="fab fa-github" style="color: white; font-size: 20px;"></i></a> 
+  <p id="click-to-reveal">CLICK HERE to reveal what behind the scene</p>
+	</div>
     </header>
     <main>
       <section>
         <h2>Summary</h2>
+        <div class="annotation"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor velit vel nibh pellentesque, at commodo sapien tempor.</p></div>
         <p>Experienced network engineer with a strong background in networking technologies and a passion for automation and Devops.</p>
       </section>
       <section>
         <h2>Experience</h2>
         <h3>Network Engineer</h3>
-        <p>Vicinity Centers (July 2021 - Current)</p>
-        <p>KPMG Australia (Nov 2019 - July 2021)</p>
-        <p>Cube Networks (Aug 2016 - Nov 2019)</p>
-
+        <div class="container">
+        <div class="column-left">
+		<p>Vicinity Centers (July 2021 - Current)<img src="images/vicinity.png"></img></p>
+		<p>KPMG Australia (Nov 2019 - July 2021)<img src="images/KPMG.png"></img></p>
+		<p>Cube Networks (Aug 2016 - Nov 2019)<img src="images/cube.svg"></img></p>
+        </div>
+	<div class="column-right">
+  		<ul>
+  		<li>Implement automated network solutions, leverage DevOps methodologies to collaborate with the team member</li>
+          	<li>Providing network support including VPN, Load balancers, Wireless, Firewall, Routers, Switches, CASB.</li>
+          	<li>Designing, implement and providing as-built document for network component in projects.</li>
+          	<li>Maintained high network uptime and performance through proactive monitoring and maintenance of network devices</li>
+          	<li>Being part of an on-call rotation to operate an after-hour support service.</li>
+        </ul>
+	</div> <div style="clear:both;"></div>
+	</div>
+	</section>
+	<section>
         <h2>Certification</h2>
 
           <img src="images/terraform.png"></img>
@@ -32,6 +55,7 @@
           <img src="images/mcsa.png"></img>
 
       </section>
+      
       <section>
         <h2>Education</h2>
         <h3>Master of information Technology</h3>
