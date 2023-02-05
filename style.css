@@ -1,6 +1,8 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 header {
@@ -57,4 +59,9 @@ h3 {
     background-color: #808080;
     clear: both;
     color: #fff;
+}
+
+img {
+  width: auto;
+  height: 150px;
 }
