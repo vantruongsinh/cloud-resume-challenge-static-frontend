@@ -4,7 +4,7 @@ async function getVisitorCount () {
     
     myJson = await res.json();
     console.log(myJson);
-    document.getElementById("p1").innerHTML = `Today visitor ${myJson.count}`;
+    document.getElementById("p1").innerHTML = `Visitors Today: ${myJson.count}`;
     console.log("testing");
 }
 
