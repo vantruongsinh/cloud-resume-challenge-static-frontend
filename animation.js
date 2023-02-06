@@ -5,10 +5,10 @@ window.addEventListener("load", function() {
 
   clickToReveal.addEventListener("click", function() {
     annotations.forEach(annotation => {
-      if (annotation.style.display === "none") {
-        annotation.style.display = "block";
-      } else {
+      if (annotation.style.display === "block") {
         annotation.style.display = "none";
+      } else {
+        annotation.style.display = "block";
       }
       
     });
