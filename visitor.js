@@ -1,6 +1,6 @@
 
 async function getVisitorCount () {
-    const res = await fetch('https://i3ser8avgh.execute-api.us-east-1.amazonaws.com/visitor-count');
+    const res = await fetch('https://6bhxgw8x5e.execute-api.us-east-1.amazonaws.com/visitor-count');
     
     myJson = await res.json();
     console.log(myJson);
